@@ -1,0 +1,551 @@
+*{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    line-height: 1;
+
+}
+
+h1{
+    position: relative;
+    left: -20px;
+    padding-bottom:20px;
+    font-size: 37px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:white;
+
+}
+
+body{
+
+    width:1280px;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* This ensures the image covers the entire container without stretching */
+}
+
+.mainimage {
+    max-height: 350px;
+    object-fit: cover; /* Adjust as needed */
+}
+
+.rightside img,
+.leftside img {
+    max-width: 107%;
+    height: auto;
+    object-fit: cover; /* Adjust as needed */
+}
+
+header{
+
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 100px ;
+    background-image: url('chinese.jpg');
+
+}
+
+
+
+nav{
+
+    margin: auto;
+    padding-bottom: 50px;
+    font-size:16px;
+   
+   
+
+}
+
+nav ul{
+
+    padding: 0;
+    padding-top: 0px;
+ 
+}
+
+nav li{
+    
+    display: inline;
+    background-color: aliceblue;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+}
+
+nav li:hover{
+    
+    display: inline;
+    background-color: rgb(228, 228, 27);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    
+}
+
+nav a{
+
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+
+    text-decoration: none;
+    color:red;
+}
+
+li {
+
+    display: flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+    margin-left:50px;
+    margin-right:50px;
+    
+    
+  }
+
+img{
+
+    width:1280px;
+    height:400px;
+
+}
+
+.mainimage{
+
+    height: 350px;
+
+}
+
+h2{
+
+    text-align: center;
+    background-image: url('-2.jpg');
+    padding-top:40px;
+    padding-bottom:40px;
+    height:60px;
+    font-size: 26px;
+    color: aliceblue;
+
+}
+
+ .par p {
+
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+
+
+h2 a {
+    position: relative;
+    left:-10px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:yellow;
+    font-size: 18px;
+   
+}
+
+h2 a:hover{
+
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+   
+}
+
+h3{
+
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+
+}
+
+.catering{
+
+text-align: center;
+padding-bottom: 50px;
+line-height: 1.6;
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.rightside {
+
+    display: inline-block;
+    width: 620px;
+    text-align: center; 
+
+}
+.rightside img {
+
+    padding-right: 50px;
+    width: 101%;
+    height: 400px; 
+    object-fit: cover; 
+
+}
+
+
+.leftside {
+    display: inline-block;
+    width: 605px;
+    text-align: center; 
+}
+
+.leftside img {
+
+    padding-left: 10px;
+    width: 106%;
+    height: 400px;
+    object-fit: cover; 
+
+}
+
+
+section p {
+
+margin-bottom:100px;
+
+}
+
+
+footer{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top:40px ;
+    padding-bottom: 40px;
+    background-color: brown;
+    clear: both;
+    color: aliceblue;
+    font-size: 16px;
+    background-image: url('bg2.jfif');
+    font-weight: bold;
+
+}
+
+.leftside p{
+
+    padding-left:65px;
+
+}
+
+.leftside h3{
+
+    padding-left:65px;
+
+}
+
+.rightside p{
+
+    line-height: 1.6;
+
+}
+
+.leftside p{
+
+    line-height: 1.6;
+
+}
+
+ 
+
+.contact h2 {
+
+    background-image: none;
+    font-size: 32px;
+
+}
+
+
+
+.contact h2, .contact p {
+    
+    margin: 0; 
+    padding: 0; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+.contact h2 {
+    padding-top:30px;
+    margin-bottom: 10px;
+    
+}
+
+.contact p {
+
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+.centeredimage {
+    position: relative;
+    top: -765px;
+    left: -680px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    transform: translate(700px);
+    border: 3px solid mistyrose;
+    margin-top: auto;
+    animation: strokeAnimation 2s infinite alternate; /* Added animation property */
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Added transition for a smooth effect */
+}
+
+
+@keyframes strokeAnimation {
+    from {
+        border-color: mistyrose;
+    }
+    to {
+        border-color: coral;
+    }
+}
+
+.form-container {
+
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.resize .centeredimage {
+
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+  }
+
+  .container {
+
+    
+    justify-content: center;
+    align-items: center;
+    max-height: 50px;
+    margin-top: auto;
+    z-index: 100;
+    margin-top: 450px;
+    
+  }
+  
+  .form-container {
+    
+    padding: 20px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    border: 2px solid #92add2;
+    background-color: rgba(240, 240, 240, 0.4);
+    background-image: linear-gradient(to bottom, #54a9eee4, #7264eb73);
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(254, 254, 247);
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+
+    resize: vertical;
+
+  }
+  
+  button {
+
+    background-color: #89cbcd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left:1px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 104%;
+    margin-top: 30px;
+
+  }
+
+  button:hover{
+
+    background-color: #26f8ff;
+
+  }
+  
+  .contact-method {
+
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .contact-method label {
+
+    margin-right: 15px;
+
+  }
+  
+  .contact-method input[type="radio"] {
+
+    margin-left: 5px;
+
+  }
+
+  select#state {
+
+    width: 506px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ 
+  }
+  
+  fieldset{
+
+    padding-left: 11px;
+    padding-left: 13px;
+	margin-top: 24px;
+	border-radius: 4px;
+	border-color: #10b146;
+    border: 1px solid #a6d2e5; 
+    border-radius: 2px;
+    border-width: 6px;
+	display: grid;
+    width: 93%;
+	grid-template-columns: 1fr;
+	gap: 8px 0;
+    font-weight: bold;
+    width:93%;
+
+}
+
+.wrapper {
+
+    background-image: url('digital-painting-mountain-with-colorful-tree-foreground.jpg');
+    background-repeat: no-repeat;
+    height:1300px;
+    object-fit: cover;
+    padding-bottom: 100px;
+    
+}
+
+.resize{
+
+color:white;
+
+}
+
+.resize h2{
+
+    color:white;
+    
+    }
+
+.f2 footer{
+
+margin-top: 410px;
+
+}
+
+.comments{
+
+width: 97%
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
